@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
+
+html,
+body {
+
+    margin: 20px;
+    color: #c1c6c9;
+    -webkit-font-smoothing: antialiased;
+    background: #c94b4b;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(right, #4b134f, #c94b4b);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4b134f, #c94b4b);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+dd {
+    font-weight: bold;
+}
+
+button {
+    background-color: black;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color: #3e4144;
+}
+
+button:focus {
+    outline: none;
+}
+
+.p-1 {
+    padding: 1px;
+}
