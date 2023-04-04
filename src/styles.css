@@ -6,8 +6,8 @@
 
 html,
 body {
-
-    margin: 20px;
+/* 
+    margin: 1px; */
     color: #c1c6c9;
     -webkit-font-smoothing: antialiased;
     background: #c94b4b;
@@ -46,4 +46,18 @@ button:focus {
 
 .p-1 {
     padding: 1px;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+input{
+    display: block;
+    margin: 5px;
 }
