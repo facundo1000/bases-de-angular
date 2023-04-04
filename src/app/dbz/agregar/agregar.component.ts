@@ -16,8 +16,6 @@ export class AgregarComponent {
     poder: '0'
   }
 
-  // @Output() onNuevoPersonaje: EventEmitter<Personaje> = new EventEmitter;
-
   agregar(): void {
 
     if (this.nuevo.nombre.trim().length === 0) {
@@ -25,7 +23,6 @@ export class AgregarComponent {
     }
     console.log(this.nuevo);
     this.service.agregarPersonaje(this.nuevo);
-    // this.onNuevoPersonaje.emit(this.nuevo);
 
     this.nuevo = { nombre: '', poder: '' };
   }
